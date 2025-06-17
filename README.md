@@ -79,11 +79,6 @@ I deploy on the render add the endpoints to below url
 https://smart-event-planner.onrender.com
 
 ```http
-
-``
-Send the data 
-https://smart-event-planner.onrender.com/api/events
-``
 ## 🧠 Weather Suitability Scoring
 
 The algorithm considers the following weights (customizable):
