@@ -74,7 +74,7 @@ node index.js
 
 ### Endpoint
 
-###I deploy on the render
+I deploy on the render
 
 ##https://smart-event-planner.onrender.com
 
