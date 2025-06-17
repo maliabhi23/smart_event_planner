@@ -5,21 +5,7 @@ The **Smart Event Planner** is a backend system that helps users plan outdoor ev
 ---
 
 ## 📁 Project Structure
-smart-event-planner/
-│
-├── index.js # Entry point of the application
-├── routes/
-│ └── events.js # API route for handling event planning requests
-├── controllers/
-│ └── eventController.js # Main logic: weather fetching, scoring, and recommendations
-├── models/
-│ └── event.js # (Optional) Schema/model for event data
-├── utils/
-│ └── weatherUtils.js # (Optional) Helpers: scoring algorithm, weather filters
-├── .env # Contains sensitive API keys (not committed)
-├── package.json # Project metadata and dependencies
-└── README.md # Project documentation
-
+ ```text smart-event-planner/ │ ├── index.js # Entry point of the application ├── routes/ │ └── events.js # API route for handling event planning requests ├── controllers/ │ └── eventController.js # Main logic: weather fetching, scoring, and recommendations ├── models/ │ └── event.js # (Optional) Schema/model for event data ├── utils/ │ └── weatherUtils.js # (Optional) Helpers: scoring algorithm, weather filters ├── .env # Contains sensitive API keys (not committed) ├── package.json # Project metadata and dependencies └── README.md # Project documentation ``
 ---
 
 ## ⚙️ Features
