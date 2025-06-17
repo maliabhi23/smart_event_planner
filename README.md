@@ -3,6 +3,7 @@ The **Smart Event Planner** is a backend system that helps users plan outdoor ev
 
 ---
 
+
 ## 📁 Project Structure
 
 ```
