@@ -20,7 +20,6 @@ smart-event-planner/
 ├── package.json # Project metadata and dependencies
 └── README.md # Project documentation
 
-
 ---
 
 ## ⚙️ Features
