@@ -1,8 +1,4 @@
 # 🌤️ Smart Event Planner Backend
-
-
-# 🌤️ Smart Event Planner Backend
-
 The **Smart Event Planner** is a backend system that helps users plan outdoor events by analyzing weather data from the **OpenWeatherMap API** and recommending suitable dates with optimal weather conditions.
 
 ---
@@ -63,9 +59,8 @@ Create a `.env` file in the root directory:
 
 ```env
 OPENWEATHERMAP_API_KEY=your_api_key_here
+MONGO_URI=mongodb_url_pastehere
 ```
-
-🔐 Don't forget to add `.env` to `.gitignore`.
 
 ### 4. Run the server
 
@@ -79,49 +74,11 @@ node index.js
 
 ### Endpoint
 
+###I deploy on the render
+
+##https://smart-event-planner.onrender.com
+
 ```http
-POST /api/events/suggest
-```
-
-### Request Body
-
-```json
-{
-  "eventName": "Tech Conference",
-  "date": "2025-06-25",
-  "location": "Pune"
-}
-```
-
-### Response
-
-```json
-{
-  "originalDateScore": 64,
-  "betterDates": [
-    {
-      "date": "2025-06-28",
-      "score": 88,
-      "conditions": {
-        "temp": 27,
-        "humidity": 52,
-        "rain": false
-      }
-    },
-    {
-      "date": "2025-06-29",
-      "score": 84,
-      "conditions": {
-        "temp": 25,
-        "humidity": 49,
-        "rain": false
-      }
-    }
-  ]
-}
-```
-
----
 
 ## 🧠 Weather Suitability Scoring
 
@@ -157,18 +114,3 @@ Events are ranked by total score out of 100.
 
 ---
 
-## 👨‍💻 Author
-
-**Abhishek Mali**
-* GitHub: github.com/abhishekmali
-* Project Type: Backend Developer Assignment – *DevDynamics Internship 2025*
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. Feel free to use and modify it for your personal or academic projects.
-
----
-
-*Let me know if you'd like a Postman collection, Dockerfile, or deployment instructions added too.*
