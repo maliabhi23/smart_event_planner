@@ -74,9 +74,9 @@ node index.js
 
 ### Endpoint
 
-I deploy on the render
+I deploy on the render add the endpoints to below url
 
-##https://smart-event-planner.onrender.com
+https://smart-event-planner.onrender.com
 
 ```http
 
